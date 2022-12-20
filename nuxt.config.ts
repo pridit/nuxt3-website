@@ -37,12 +37,4 @@ export default defineNuxtConfig({
   colorMode: {
     classSuffix: '',
   },
-
-  robots: {
-    Sitemap: process.env.BASE_URL + '/sitemap.xml'
-  },
-
-  generate: {
-    fallback: '404.html'
-  },
 })
