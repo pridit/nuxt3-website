@@ -4,7 +4,7 @@
     @click="$colorMode.preference = $colorMode.value === 'dark' ? 'light' : 'dark'"
   >
     <svg
-      v-if="$colorMode.value === 'light'"
+      v-show="$colorMode.value === 'light'"
       xmlns="http://www.w3.org/2000/svg"
       class="w-6 h-6"
       viewBox="0 0 20 20"
@@ -15,7 +15,7 @@
       />
     </svg>
     <svg
-      v-else
+      v-show="$colorMode.value === 'dark'"
       xmlns="http://www.w3.org/2000/svg"
       class="w-6 h-6"
       viewBox="0 0 20 20"
@@ -29,4 +29,3 @@
     </svg>
   </button>
 </template>
-

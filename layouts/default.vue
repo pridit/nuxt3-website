@@ -1,15 +1,15 @@
 <template>
   <div>
-    <NuxtPage />
+    <slot />
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 useHead({
-  bodyAttrs: [{
-    'class': 'min-h-screen font-sans leading-normal bg-gray-100 text-gray-700 dark:bg-night dark:text-gray-300 print:bg-white'
-  }]
-})
+  bodyAttrs: {
+    class: 'min-h-screen font-sans leading-normal bg-gray-100 text-gray-700 dark:bg-night dark:text-gray-300 print:bg-white'
+  }
+});
 </script>
 
 <style>
@@ -45,9 +45,6 @@ a {
 
 .dark a:not(.inline-block) {
   border-bottom: 1px dotted #DDD;
-}
-
-.dark a:not(.inline-block) {
   @apply text-slate-200;
 }
 </style>

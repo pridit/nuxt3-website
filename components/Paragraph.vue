@@ -1,5 +1,5 @@
 <template>
   <p class="mt-7">
-    <slot></slot>
+    <slot />
   </p>
 </template>

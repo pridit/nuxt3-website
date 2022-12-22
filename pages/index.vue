@@ -18,9 +18,9 @@
 
         <div class="max-w-2xl md:text-justify">
           <Paragraph class="font-semibold">
-            Hello, I'm Jordan Heale&mdash;a professional full stack web app developer
-            currently based in <span class="whitespace-nowrap">Greater London, England,</span> with over 5 years of
-            experience.
+            Hello, I'm Jordan Heale&mdash;a professional full stack web app developer presently based in
+            <span class="whitespace-nowrap">Greater London, England,</span> with over 5 years of
+            industry experience.
             <span class="font-normal">
               I specialise in <a href="https://laravel.com/" target="_blank">Laravel</a> and have a keen
               interest in infrastructure and cloud technology.

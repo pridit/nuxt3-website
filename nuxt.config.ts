@@ -1,7 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  ssr: false,
-
   app: {
     head: {
       title: 'Jordan Heale',
@@ -9,11 +7,10 @@ export default defineNuxtConfig({
         lang: 'en',
       },
       meta: [
-        { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1, shrink-to-fit=no' },
         { name: 'format-detection', content: 'telephone=no' },
         { hid: 'description', name: 'description', content: 'Full stack web developer in Greater London, England' },
-        { hid: 'keywords', name: 'keywords', content: 'vuejs, nuxt, javascript, laravel, development, software, portfolio' },
+        { hid: 'keywords', name: 'keywords', content: 'vuejs, nuxt, javascript, laravel, development, software' },
         { hid: 'og:type', property: 'og:type', content: 'website' },
         { hid: 'og:url',  property: 'og:url', content: process.env.BASE_URL },
         { hid: 'og:description', property: 'og:description', content: 'Full stack web developer in Greater London, England' },
