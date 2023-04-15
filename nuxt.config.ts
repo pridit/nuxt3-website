@@ -26,12 +26,55 @@ export default defineNuxtConfig({
   },
 
   modules: [
+    '@dargmuesli/nuxt-cookie-control',
     '@nuxtjs/color-mode',
     '@nuxtjs/robots',
     '@nuxtjs/tailwindcss',
+    'nuxt-gtag',
   ],
+
+  cookieControl: {
+    barPosition: 'bottom-right',
+
+    colors: {
+      barBackground: '#3f3f46',
+      barButtonColor: "#52525b",
+      barButtonHoverBackground: "#e4e4e7",
+      barButtonHoverColor: "#52525b",
+    },
+
+    cookies: {
+      optional: [
+        {
+          description: {
+            en:  'These cookies gather information about how many people visit and use our website. Switching these off means we can\'t gather information to improve the experience.'
+          },
+          id: 'ga',
+          name: {
+            en: 'Analytics'
+          },
+          targetCookieIds: ['cookie_control_consent', 'cookie_control_enabled_cookies'],
+        }
+      ],
+    },
+
+    localeTexts: {
+      en: {
+        accept: "Accept all",
+        bannerDescription: "This website uses cookies to improve your experience.",
+        manageCookies: "Manage cookies",
+        save: "Save preferences",
+      },
+    },
+
+    isAcceptNecessaryButtonEnabled: false,
+  },
 
   colorMode: {
     classSuffix: '',
+  },
+
+  gtag: {
+    initialConsent: false,
   },
 })
