@@ -13,7 +13,6 @@ const {
   isModalActive,
   moduleOptions
 } = useCookieControl()
-// example: react to a cookie being accepted
 watch(
   () => cookiesEnabledIds.value,
   (current, previous) => {
@@ -26,4 +25,8 @@ watch(
   },
   { deep: true }
 )
+
+if (cookiesEnabledIds.value != undefined && cookiesEnabledIds.value.includes('ga')) {
+  useGtagConsent(true)
+}
 </script>
