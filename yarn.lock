@@ -560,7 +560,7 @@
     unimport "^3.0.4"
     untyped "^1.3.2"
 
-"@nuxt/kit@3.4.2", "@nuxt/kit@^3.0.0", "@nuxt/kit@^3.3.1", "@nuxt/kit@^3.3.3":
+"@nuxt/kit@3.4.2", "@nuxt/kit@^3.0.0", "@nuxt/kit@^3.3.1", "@nuxt/kit@^3.3.3", "@nuxt/kit@^3.4.2":
   version "3.4.2"
   resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.4.2.tgz#a7ae05f154c43560f18dd56c49df1b23a2c2553b"
   integrity sha512-bFUpkyG2ZF6RYqiW+tXnWssccHQQqMF4kZJJLP/0eKXf+Fkt/Is0R7IY768jy8ylnyqeMBbmpg4Zv5gSZjfZQw==
@@ -3481,12 +3481,12 @@ nuxi@3.3.3:
   optionalDependencies:
     fsevents "~2.3.2"
 
-nuxt-gtag@^0.5.4:
-  version "0.5.4"
-  resolved "https://registry.yarnpkg.com/nuxt-gtag/-/nuxt-gtag-0.5.4.tgz#8d774e6940b0e8b25b53a85b0445882eab6e0d72"
-  integrity sha512-plPQk44UpS/m8o+2+yWtWuLiy2/385BMea/nwb1Mz94CK+Cje9U2OJ9Kyp1Tm81FA+OwMSJdpD7Ez4eptxrbnw==
+nuxt-gtag@^0.5.7:
+  version "0.5.7"
+  resolved "https://registry.yarnpkg.com/nuxt-gtag/-/nuxt-gtag-0.5.7.tgz#7ef8d944852a65cf768965625ca46e1ad9811aa2"
+  integrity sha512-Q6NRndEJ0phEfKdS4uLy3hpVBkgWGnG5KJ2dhVyCmbLXcfakkmf19f2WJ5uM2yUOg8rAkYgDjRb9XyAfE+okuA==
   dependencies:
-    "@nuxt/kit" "^3.3.3"
+    "@nuxt/kit" "^3.4.2"
     defu "^6.1.2"
     pathe "^1.1.0"
 
