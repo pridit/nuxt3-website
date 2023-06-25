@@ -10,7 +10,8 @@ services:
     volumes:
       - .:/usr/src/app
     ports:
-      - "3000:3000"
+      - 3000:3000
+      - 24678:24678
     environment:
       HOST: 0.0.0.0
       PORT: 3000
