@@ -36,20 +36,29 @@ export default defineNuxtConfig({
   ],
 
   cookieControl: {
-    barPosition: 'bottom-right',
+    barPosition: 'bottom-full',
 
     colors: {
-      barBackground: '#3f3f46',
-      barButtonColor: "#52525b",
+      barBackground: '#fff',
+      barButtonColor: '#444',
       barButtonHoverBackground: "#e4e4e7",
-      barButtonHoverColor: "#52525b",
+      barButtonHoverColor: '#444',
+      barTextColor: '#444',
+      checkboxActiveBackground: '#318CE7',
+      checkboxInactiveBackground: '#e4e4e7',
+      modalButtonBackground: false,
+      modalButtonColor: false,
+      modalButtonHoverBackground: '#e4e4e7',
+      modalButtonHoverColor: false,
     },
+
+    isDashInDescriptionEnabled: true,
 
     cookies: {
       optional: [
         {
           description: {
-            en:  'These cookies gather information about how many people visit and use our website. Switching these off means we can\'t gather information to improve the experience.'
+            en:  'Analytical cookies are used to gain insight into the way visitors engage with our website. Providing metrics such as visitor count, bounce rate, traffic source, and other relevant data.'
           },
           id: 'ga',
           name: {
@@ -62,14 +71,17 @@ export default defineNuxtConfig({
 
     localeTexts: {
       en: {
-        accept: "Accept all",
-        bannerDescription: "This website uses cookies to improve your experience.",
-        manageCookies: "Manage cookies",
-        save: "Save preferences",
+        accept: "Accept All",
+        acceptAll: "Accept All",
+        bannerDescription: "Our website uses cookies to analyse the traffic we receive. By clicking \"Accept All\", you consent to our use of cookies.",
+        bannerTitle: 'We use cookies',
+        close: '',
+        decline: "Reject All",
+        declineAll: "Reject All",
+        manageCookies: "Manage Cookies",
+        save: "Save Preferences",
       },
-    },
-
-    isAcceptNecessaryButtonEnabled: false,
+    }
   },
 
   colorMode: {
