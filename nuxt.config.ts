@@ -61,7 +61,7 @@ export default defineNuxtConfig({
           description: {
             en:  'Necessary cookies are fundamental to enable core functionality of the website, such as adjusting consent preferences. These do not contain personally identifiable information.'
           },
-          id: 'ga',
+          id: 'ncc',
           name: {
             en: 'Necessary'
           },
