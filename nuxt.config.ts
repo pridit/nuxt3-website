@@ -45,6 +45,7 @@ export default defineNuxtConfig({
       barButtonHoverColor: '#444',
       barTextColor: '#444',
       checkboxActiveBackground: '#318CE7',
+      checkboxDisabledBackground: '#444',
       checkboxInactiveBackground: '#e4e4e7',
       modalButtonBackground: false,
       modalButtonColor: false,
@@ -55,19 +56,33 @@ export default defineNuxtConfig({
     isDashInDescriptionEnabled: true,
 
     cookies: {
+      necessary: [
+        {
+          description: {
+            en:  'Necessary cookies are fundamental to enable core functionality of the website, such as adjusting consent preferences. These do not contain personally identifiable information.'
+          },
+          id: 'ga',
+          name: {
+            en: 'Necessary'
+          },
+          targetCookieIds: ['ncc_c', 'ncc_e'],
+        }
+      ],
       optional: [
         {
           description: {
-            en:  'Analytical cookies are used to gain insight into the way visitors engage with our website. Providing metrics such as visitor count, bounce rate, traffic source, and other relevant data.'
+            en: 'Analytical cookies are used to gain insight into the way visitors engage with our website. Providing metrics such as visitor count, bounce rate, traffic source, and other relevant data.'
           },
           id: 'ga',
           name: {
             en: 'Analytics'
           },
-          targetCookieIds: ['cookie_control_consent', 'cookie_control_enabled_cookies'],
+          targetCookieIds: ['_ga', '_ga_3SRQ0GWQHQ'],
         }
       ],
     },
+
+    isCookieIdVisible: true,
 
     localeTexts: {
       en: {

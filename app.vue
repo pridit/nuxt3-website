@@ -106,7 +106,9 @@ if (cookiesEnabledIds.value != undefined && cookiesEnabledIds.value.includes('ga
   width: 100%;
 }
 
-.cookieControl__ModalContentInner h3:nth-child(3) {
+.cookieControl__ModalContentInner h3:nth-child(3),
+.cookieControl__ModalContentInner h3:nth-child(5),
+.cookieControl__ModalClose {
   display: none;
 }
 
@@ -121,9 +123,5 @@ if (cookiesEnabledIds.value != undefined && cookiesEnabledIds.value.includes('ga
 
 .cookieControl__ModalContentInner > button::after {
   content: "\2716";
-}
-
-.cookieControl__ModalClose {
-  display: none;
 }
 </style>
