@@ -1,6 +1,8 @@
 <template>
   <button
     class="text-gray-400 hover:text-gray-500 dark:hover:text-gray-300"
+    role="button"
+    aria-label="Toggle Light / Dark Mode"
     @click="$colorMode.preference = $colorMode.value === 'dark' ? 'light' : 'dark'"
   >
     <svg

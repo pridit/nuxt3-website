@@ -67,7 +67,7 @@ if (cookiesEnabledIds.value != undefined && cookiesEnabledIds.value.includes('ga
 
 .cookieControl__BarButtons button:first-child,
 .cookieControl__ModalButtons button:nth-child(2) {
-  background-color: #318CE7;
+  background-color: #11599C;
   color: white;
 }
 

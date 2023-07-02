@@ -44,7 +44,7 @@ export default defineNuxtConfig({
       barButtonHoverBackground: "#e4e4e7",
       barButtonHoverColor: '#444',
       barTextColor: '#444',
-      checkboxActiveBackground: '#318CE7',
+      checkboxActiveBackground: '#11599C',
       checkboxDisabledBackground: '#444',
       checkboxInactiveBackground: '#e4e4e7',
       modalButtonBackground: false,
