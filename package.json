@@ -1,6 +1,7 @@
 {
   "name": "nuxt3-pridit",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -9,12 +10,14 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@dargmuesli/nuxt-cookie-control": "^5.10.1",
-    "@nuxtjs/color-mode": "^3.2.0",
+    "@dargmuesli/nuxt-cookie-control": "^7.0.1",
+    "@nuxtjs/color-mode": "^3.3.0",
     "@nuxt/devtools": "latest",
     "@nuxtjs/tailwindcss": "^6.7.2",
-    "nuxt": "^3.6.1",
-    "nuxt-gtag": "^0.5.7"
+    "nuxt": "^3.8.0",
+    "nuxt-gtag": "^1.1.1",
+    "vue": "^3.3.6",
+    "vue-router": "^4.2.5"
   },
   "dependencies": {
     "@nuxtjs/robots": "^3.0.0"

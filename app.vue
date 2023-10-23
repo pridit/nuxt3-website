@@ -1,7 +1,7 @@
 <template>
   <CookieControl locale="en">
-    <template #modal class="dark:bg-night">
-      <h3 class="shadow-lg">Manage Cookies</h3>
+    <template #modal>
+      <h3 class="text-lg font-semibold shadow-lg">Manage Cookies</h3>
     </template>
   </CookieControl>
   <NuxtLayout>
@@ -42,7 +42,7 @@ if (cookiesEnabledIds.value != undefined && cookiesEnabledIds.value.includes('ga
   box-shadow: 0 -1px 10px 0 #acabab4d;
 }
 
-.cookieControl__BarContainer h3 {
+.cookieControl__BarContainer h2 {
   font-weight: 600;
 }
 
@@ -106,8 +106,7 @@ if (cookiesEnabledIds.value != undefined && cookiesEnabledIds.value.includes('ga
   width: 100%;
 }
 
-.cookieControl__ModalContentInner h3:nth-child(3),
-.cookieControl__ModalContentInner h3:nth-child(5),
+.cookieControl__ModalContentInner h2,
 .cookieControl__ModalClose {
   display: none;
 }

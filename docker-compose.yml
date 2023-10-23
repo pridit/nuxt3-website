@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   nuxt-app:
-    image: node:18-alpine
+    image: node:21-alpine
     container_name: nuxt-app
     tty: true
     command: [sh, -c, "yarn install && yarn dev"]
