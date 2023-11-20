@@ -18,6 +18,12 @@ const {
   moduleOptions
 } = useCookieControl()
 
+const {
+  gtag,
+  grantConsent,
+  revokeConsent
+} = useGtag()
+
 watch(
   () => cookiesEnabledIds.value,
   (current, previous) => {
@@ -25,14 +31,16 @@ watch(
       (!previous?.includes('ga') &&
         current?.includes('ga'))
     ) {
-      useGtagConsent(true)
+      grantConsent()
+    } else {
+      revokeConsent()
     }
   },
   { deep: true }
 )
 
 if (cookiesEnabledIds.value != undefined && cookiesEnabledIds.value.includes('ga')) {
-  useGtagConsent(true)
+  grantConsent()
 }
 </script>
 
