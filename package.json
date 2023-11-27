@@ -10,7 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@dargmuesli/nuxt-cookie-control": "^7.1.2",
+    "@dargmuesli/nuxt-cookie-control": "^7.1.4",
     "@nuxtjs/color-mode": "^3.3.2",
     "@nuxt/devtools": "latest",
     "@nuxtjs/tailwindcss": "^6.9.5",
