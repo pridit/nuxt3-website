@@ -349,10 +349,10 @@
   resolved "https://registry.yarnpkg.com/@csstools/selector-specificity/-/selector-specificity-3.0.0.tgz#798622546b63847e82389e473fd67f2707d82247"
   integrity sha512-hBI9tfBtuPIi885ZsZ32IMEU/5nlZH/KOVYJCOh7gyMxaVLGmLedYqFN6Ui1LXkI8JlC8IsuC0rF0btcRZKd5g==
 
-"@dargmuesli/nuxt-cookie-control@^7.2.0":
-  version "7.2.0"
-  resolved "https://registry.yarnpkg.com/@dargmuesli/nuxt-cookie-control/-/nuxt-cookie-control-7.2.0.tgz#2679875688dcf8b8ee6866516a6c9eedf54ad293"
-  integrity sha512-57mjtHTDIDgvzg2HpqWudRyIOC6ZoV8o8V/oNBdanoYezfdOAS/cdj4IQiRiw4ltnAkThA5kIXJMke89u7WUaA==
+"@dargmuesli/nuxt-cookie-control@^7.2.1":
+  version "7.2.1"
+  resolved "https://registry.yarnpkg.com/@dargmuesli/nuxt-cookie-control/-/nuxt-cookie-control-7.2.1.tgz#488ba0931bc2506a97a042076a47bb7450086b0f"
+  integrity sha512-2SunDjPam3DZc8FVo/0IR3HCXazcdhqbZxMwQmt1s+Anpp0dt4zv09osI+PSlIozdc36dc7nuv7VDpp9UKpqMw==
   dependencies:
     "@nuxt/kit" "^3.8.0"
     "@sindresorhus/slugify" "^2.2.1"
