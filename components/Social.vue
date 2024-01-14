@@ -11,9 +11,9 @@
       version="1.1"
       xmlns:xlink="http://www.w3.org/1999/xlink"
       xmlns:svgjs="http://svgjs.com/svgjs"
-      viewBox="0 0 24 24"
-      height="22"
-      width="22"
+      viewBox="0 0 512 512"
+      height="24"
+      width="24"
     >
       <g transform="matrix(1,0,0,1,0,0)">
         <path
@@ -25,6 +25,10 @@
         ></path>
       </g>
     </svg>
+
+    <span class="hidden ml-1.5 text-xs align-middle sm:inline-block">
+      {{ label }}
+    </span>
   </a>
 </template>
 
