@@ -1,7 +1,7 @@
 <template>
   <a
     target="_blank"
-    class="inline-block text-gray-400 border-0 hover:text-gray-500 dark:hover:text-gray-300"
+    class="inline-block text-gray-500 border-0 hover:text-gray-700 dark:text-gray-300 dark:hover:text-gray-100"
   >
     <svg
       role="img"
