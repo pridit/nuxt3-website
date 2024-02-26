@@ -17,7 +17,7 @@
     "nuxt": "^3.10.2",
     "nuxt-gtag": "^1.2.0",
     "vue": "^3.4.19",
-    "vue-router": "^4.2.5"
+    "vue-router": "^4.3.0"
   },
   "dependencies": {
     "@nuxtjs/robots": "^3.0.0"
