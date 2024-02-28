@@ -26,7 +26,7 @@
       </g>
     </svg>
 
-    <span class="hidden ml-1.5 text-xs align-middle sm:inline-block">
+    <span class="hidden ml-1.5 text-xs font-semibold align-middle sm:inline-block">
       {{ label }}
     </span>
   </a>

@@ -11,7 +11,10 @@
 
         <p class="mb-4">We could not find what you were looking for.</p>
 
-        <NuxtLink to="/">Back to the home page</NuxtLink>
+        <NuxtLink
+          to="/"
+          external
+        >Back to the home page</NuxtLink>
       </div>
     </div>
   </NuxtLayout>

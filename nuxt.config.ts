@@ -1,6 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  devtools: { enabled: true },
+  devtools: {
+    enabled: true
+  },
 
   app: {
     head: {
@@ -31,6 +33,7 @@ export default defineNuxtConfig({
     '@dargmuesli/nuxt-cookie-control',
     '@nuxtjs/color-mode',
     '@nuxtjs/robots',
+    '@nuxtjs/sitemap',
     '@nuxtjs/tailwindcss',
     'nuxt-gtag',
   ],
@@ -104,6 +107,17 @@ export default defineNuxtConfig({
   },
 
   gtag: {
+    id: 'G-3SRQ0GWQHQ',
     initialConsent: false,
+  },
+
+  robots: {
+    rules: {
+      Sitemap: process.env.BASE_URL + '/sitemap.xml'
+    },
+  },
+
+  sitemap: {
+    xsl: false,
   },
 })

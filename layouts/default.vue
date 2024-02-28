@@ -39,8 +39,8 @@ html {
 }
 
 a {
-  font-weight: 600;
   border-bottom: 1px dotted #444;
+  @apply font-semibold;
 }
 
 .dark a:not(.inline-block) {

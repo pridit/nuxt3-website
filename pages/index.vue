@@ -22,27 +22,39 @@
             <span class="whitespace-nowrap">Greater London, England,</span> with over 5 years of
             industry experience.
             <span class="font-normal">
-              I specialise in <a href="https://laravel.com/" target="_blank">Laravel</a> and have a keen
-              interest in infrastructure and cloud technology.
+              I specialise in
+              <NuxtLink
+                href="https://laravel.com/"
+                target="_blank"
+              >Laravel</NuxtLink> and have a keen interest in infrastructure and cloud technology.
             </span>
           </Paragraph>
 
           <Paragraph>
             In a volunteer capacity I have contributed towards the encyclopedia
-            <a href="https://pcgamingwiki.com" target="_blank" rel="nofollow">PCGamingWiki</a>&mdash;there I spent 3
-            years as an administrator, and in that time built
-            <a href="https://github.com/pridit/pcgw-assignments" target="_blank">PCGW Assignments</a> to manage and
+            <NuxtLink
+              href="https://pcgamingwiki.com"
+              target="_blank"
+              rel="nofollow"
+            >PCGamingWiki</NuxtLink>&mdash;there I spent 3 years as an administrator, and in that time built
+            <NuxtLink
+              href="https://github.com/pridit/pcgw-assignments"
+              target="_blank"
+            >PCGW Assignments</NuxtLink> to manage and
             allocate press review codes for upcoming title releases.
           </Paragraph>
 
           <Paragraph>
-            Outside of the web, but within the realm of tech, I also dabble in hosting video game servers and operated a
-            relatively popular
-            <a
+            Outside of the web, but within the realm of tech, I also dabble in hosting video game servers and operated
+            a relatively popular
+            <NuxtLink
               href="https://en.wikipedia.org/wiki/ARMA_2:_Operation_Arrowhead"
               target="_blank"
-            >Arma 2: Operation Arrowhead</a> server back in 2019&mdash;creating a modular
-            <a href="https://github.com/pridit/co40_Domination.Takistan" target="_blank">codebase</a> from scratch as
+            >Arma 2: Operation Arrowhead</NuxtLink> server back in 2019&mdash;creating a modular
+            <NuxtLink
+              href="https://github.com/pridit/co40_Domination.Takistan"
+              target="_blank"
+            >codebase</NuxtLink> from scratch as
             part of it.
           </Paragraph>
 
@@ -52,11 +64,13 @@
           </Paragraph>
 
           <Paragraph>
-            <a href="mailto:hello@pridit.co.uk">Feel free to get in touch</a>
+            <NuxtLink
+              to="mailto:hello@pridit.co.uk"
+            >Feel free to get in touch</NuxtLink>
           </Paragraph>
         </div>
 
-        <p class="mt-8">
+        <p class="mt-7">
           <Social
             href="https://github.com/pridit"
             label="GitHub"
@@ -77,7 +91,24 @@
             svg="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"
           />
         </p>
+
+        <p class="text-xs font-normal text-gray-500 mt-7 dark:text-gray-300">
+          <NuxtLink
+            to="https://opensource.org/license/mit"
+            target="_blank"
+          >MIT</NuxtLink> &copy; {{ currentYear }} pridit.co.uk
+        </p>
       </div>
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      currentYear: new Date().getFullYear(),
+    };
+  },
+};
+</script>
