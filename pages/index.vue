@@ -2,7 +2,7 @@
   <div class="flex items-center justify-center min-h-screen p-6 lg:p-0">
     <div class="md:flex">
       <img
-        class="w-24 h-24 border rounded-full border-stone-200 dark:border-stone-900 md:h-32 md:w-32"
+        class="w-24 h-24 rounded-full border-stone-200 dark:border-stone-900 md:h-32 md:w-32"
         src="~/assets/jordan-heale.jpg"
         alt="Jordan Heale"
       />

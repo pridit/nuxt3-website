@@ -7,7 +7,7 @@
 <script setup lang="ts">
 useHead({
   bodyAttrs: {
-    class: 'min-h-screen font-sans leading-normal bg-gray-100 text-gray-700 dark:bg-night dark:text-gray-300 print:bg-white'
+    class: 'min-h-screen font-sans leading-normal text-gray-700 transition ease-in-out bg-gray-100 dark:bg-night dark:text-gray-300 print:bg-white'
   }
 });
 </script>
