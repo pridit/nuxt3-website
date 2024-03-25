@@ -47,7 +47,7 @@
             Outside of the web, but within the realm of tech, I also dabble in hosting video game servers and operated
             a relatively popular
             <NuxtLink
-              href="https://en.wikipedia.org/wiki/ARMA_2:_Operation_Arrowhead"
+              href="https://en.wikipedia.org/wiki/Arma_2:_Operation_Arrowhead"
               target="_blank"
             >Arma 2: Operation Arrowhead</NuxtLink> server back in 2019&mdash;creating a modular
             <NuxtLink
